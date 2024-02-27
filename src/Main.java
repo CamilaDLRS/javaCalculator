@@ -34,10 +34,10 @@ public class Main {
             }
             System.out.printf("Result: " + result);
 
-            System.out.println("\n Do you want to continue? [S/N]");
+            System.out.println("\n Do you want to continue? [S/N].");
             char continueLoop = scan.next().charAt(0);
 
-            if (continueLoop == 'n' || continueLoop == 'N' ) {
+            if (continueLoop == 'n' || continueLoop == 'N') {
                 loop = false;
             }
         }
